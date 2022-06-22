@@ -8,86 +8,69 @@
 </head>
 <style>
     .header {
-        background-color: lightgrey;
         width: inherit;
         height: 60px;
-        border-radius: 10px 10px 10px 10px;
+        border-bottom: 1px solid black;
     }
     .mainMenu {
-        background-color: grey;
+        background-color: lightgrey;
         width: 190px;
         height: 50px;
         border-radius: 10px 10px 10px 10px;
         position: relative;
         top: 5px;
         left: 5px;
-        
+
+        font-size: 50px;
     }
     .sideBar  {
-        background-color: lightgrey;
         width: 200px;
         height: 500px;
-        border-radius: 10px 10px 10px 10px;
+        
         position: relative;
-        top: 20px;
+        top: 10px;
     }
-    .menuList1 {
-        background-color: grey;
+
+    #menuList {
+        background-color: lightgrey;
         width: 190px;
         height: 50px;
         border-radius: 10px 10px 10px 10px;
         position: relative;
-        top: 5px;
         left: 5px;
+    }
+
+    .menuList1 {
+        top: 5px;        
     }
     .menuList2 {
-        background-color: grey;
-        width: 190px;
-        height: 50px;
-        border-radius: 10px 10px 10px 10px;
-        position: relative;
-        top: 15px;
-        left: 5px;
+        top: 15px;        
     }
     .menuList3 {
-        background-color: grey;
-        width: 190px;
-        height: 50px;
-        border-radius: 10px 10px 10px 10px;
-        position: relative;
-        top: 25px;
-        left: 5px;
+        top: 25px;        
     }
     .menuList4 {
-        background-color: grey;
-        width: 190px;
-        height: 50px;
-        border-radius: 10px 10px 10px 10px;
-        position: relative;
-        top: 35px;
-        left: 5px;
+        top: 35px;        
     }
     .menuList5 {
-        background-color: grey;
-        width: 190px;
-        height: 50px;
-        border-radius: 10px 10px 10px 10px;
-        position: relative;
-        top: 45px;
-        left: 5px;
+        top: 45px;        
     }
 
 </style>
 <body>
     <div class="header">
-        <div class="mainMenu" onclick="location.href= 'https://jydev.netlify.app';"></div>
+        <div class="mainMenu" onclick="location.href= 'https://jydev.netlify.app';">
+            <center>Main</center>
+        </div>
     </div>
     <div class="sideBar">
-        <div class="menuList1" onclick="location.href= 'https://jydev.netlify.app/operation';"></div>
-        <div class="menuList2"></div>
-        <div class="menuList3"></div>
-        <div class="menuList4"></div>
-        <div class="menuList5"></div>
+        <div id="menuList" class="menuList1" onclick="location.href= 'https://jydev.netlify.app/operation';">
+            menuList1
+        </div>
+        <div id="menuList" class="menuList2">menuList2</div>
+        <div id="menuList" class="menuList3">menuList3</div>
+        <div id="menuList" class="menuList4">menuList4</div>
+        <div id="menuList" class="menuList5">menuList5</div>
     </div>
 </body>
 </html>
