@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./Style/loginPage.css">
 </head>
 <body>
-    Login
-    <input type="ID">
-    <br>
-    <input type="password">
-    <br>
-    <button><a href="mainPage.html">Login</a></button>
+    <div class="main">
+        <div class="mainTitle">
+            로그인
+        </div>      
+        <input type="ID" class="textBox" id="registerTextBox" placeholder="ID"><br>
+        <input type="password" class="textBox" id="loginTextBox" placeholder="PW">
+        <br>
+        <div class="button" id="loginTextBox">
+            <a href="mainPage.html" >로그인</a>
+        </div>
+        <div class="button"id="registerTextBox">
+            <a href="Register.html">회원가입</a>
+        </div>
+        
+    </div>
 </body>
 </html>
