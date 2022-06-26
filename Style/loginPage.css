@@ -3,8 +3,6 @@ body {
 }
 
 div {
-    width: fit-content;
-    height: fit-content;
     text-align: center;     
     margin : auto;
 }
@@ -15,6 +13,7 @@ div {
 }
 
 .textBox {
+    background-color: rgb(229, 237, 245);
     font-size: 15px;
     margin-top: 10px;
     height: 30px;
@@ -40,5 +39,5 @@ div {
 }
 
 .all {
-    top: 50%;
+    margin-top: 300px;
 }
