@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+}
+
+div {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;     
+    margin : auto;
+}
+
+.mainTitle {
+    color: grey;
+    font-size: 20px;
+}
+
+.textBox {
+    font-size: 15px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(202, 242, 255);
+}
+
+.button {
+    margin-top: 10px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(202, 242, 255);
+    border: 5px solid rgb(202, 242, 255);
+    border-radius: 5px;
+}
+
+.button > a {
+    color: grey;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.all {
+    top: 50%;
+}
