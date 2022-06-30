@@ -1,43 +1,44 @@
 body {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 div {
     text-align: center;     
-    margin : auto;
+    margin : 0 auto;
 }
 
 .mainTitle {
-    color: grey;
     font-size: 20px;
 }
 
 .textBox {
-    background-color: rgb(229, 237, 245);
     font-size: 15px;
     margin-top: 10px;
     height: 30px;
-    width: 150px;
-    border-radius: 5px;
-    border-color: rgb(202, 242, 255);
+    width: 200px;
+    border-radius: 15px;
 }
 
 .button {
     margin-top: 10px;
-    height: 20px;
-    width: 150px;
+    height: 32px;
+    width: 210px;
     text-align: center;
-    background-color: rgb(202, 242, 255);
-    border: 5px solid rgb(202, 242, 255);
-    border-radius: 5px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 15px;
 }
 
 .button > a {
-    color: grey;
+    color: white;
     text-decoration: none;
-    line-height: 20px;
+    line-height: 32px;
 }
 
 .all {
     margin-top: 300px;
+}
+
+input:focus {
+    
 }

@@ -1,58 +1,31 @@
-body{
-    color: grey;
-    background-color: aliceblue;
+.all {
+    color: black;
+    background-color: white ;
 }
 
 .header {
-    width: inherit;
-    height: 60px;
-    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    height: 50px ;
+    background-color: green;
+    
 }
 
-.home {
-    font-size: 50px;
-    width: 190px;
-    height: inherit;   
-    color: grey;
-}
-
-.github{
-    width: 60px;
-    height: inherit;
-    background-image: url(./Image/githubicon.webp);
-    background-size: cover;
-    float: right;
-}
-
-.sideBar  {
-    color: grey;
-    width: 200px;
-    height: 500px;
-    position: relative;
-    top: 10px;
-}
-
-.menuList {
-    color: grey;
-    width: 190px;
+#homeButton {
+    width: 150px;
     height: 50px;
-    border-radius: 10px 10px 10px 10px;
-    position: relative;
-    left: 5px;
+    text-align: center;
 }
 
-.menuList1 {
-    top: 5px;        
+.sideBar{
+    width: 150px;
+    height: 800px;
 }
-.menuList2 {
-    top: 15px;        
-}
-.menuList3 {
-    top: 25px;        
-}
-.menuList4 {
-    top: 35px;        
-}
-.menuList5 {
-    top: 45px;        
+
+.sideBar > div {
+    text-align: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
 }
