@@ -1,0 +1,21 @@
+.gathering {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 70px;
+    left: 180px;
+}
+
+
+.menuTitle {
+    font-size: 30px;
+}
+
+.inputPage {
+    font-size: 20px;
+}
+
+.submitButton {
+    position: relative;
+    right: 0px;
+}

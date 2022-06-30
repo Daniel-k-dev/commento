@@ -6,19 +6,19 @@
 .header {
     border-radius: 5px;
     height: 50px ;
-    background-color: green;
-    
+    background-color: green;  
 }
 
 #homeButton {
     width: 150px;
     height: 50px;
     text-align: center;
+    line-height: 50px;
 }
 
 .sideBar{
     width: 150px;
-    height: 800px;
+    height:fit-content;
 }
 
 .sideBar > div {
@@ -28,4 +28,5 @@
     height: 30px;
     background-color: green;
     border-radius: 15px;
+    line-height: 30px;
 }
