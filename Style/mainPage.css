@@ -1,4 +1,5 @@
 .all {
+    font-style: normal;
     color: black;
     background-color: white ;
 }
@@ -18,7 +19,7 @@
 
 .sideBar{
     width: 150px;
-    height:fit-content;
+    height:fit-content; 
 }
 
 .sideBar > div {
